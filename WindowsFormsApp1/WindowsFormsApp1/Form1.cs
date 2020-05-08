@@ -20,13 +20,13 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             string Kullanici;
-            string sifre;
+            string Sifre;
 
             Kullanici = textBox1.Text;
-            sifre = textBox2.Text;
+            Sifre = textBox2.Text;
 
 
-            if (Kullanici == "Sanal Kurs" && sifre == "123456")
+            if (Kullanici == "Sanal Kurs" && sifre == "654321")
 
 
                 MessageBox.Show("Giriş Başarılı!...");
