@@ -16,5 +16,25 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string Kullanici;
+            string sifre;
+
+            Kullanici = textBox1.Text;
+            sifre = textBox2.Text;
+
+            if (Kullanici == "Sanal Kurs" && sifre == "123456")
+
+
+                MessageBox.Show("Giriş Başarılı!...");
+
+
+            else
+
+
+                MessageBox.Show("Hatalı Giriş!...");
+        }
     }
 }
