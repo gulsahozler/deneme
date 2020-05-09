@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 
 // iki saattir uðraþýyoruz ayol
+//merge bir de buradan deniyoruz
 
 namespace WindowsFormsApp1
 {
