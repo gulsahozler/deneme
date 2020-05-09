@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+
+
+// iki saattir uðraþýyoruz ayol
 
 namespace WindowsFormsApp1
 {
@@ -17,7 +21,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        // yaptÄ±ÄŸÄ±m deÄŸiÅŸiklikler sizin branchÄ±nÄ±za otomatik gelecek mi
+        // yaptýðým deðiþiklikler sizin branchýnýza otomatik gelecek mi
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -30,13 +34,13 @@ namespace WindowsFormsApp1
             if (Kullanici == "Sanal Kurs" && sifre == "123456")
 
 
-                MessageBox.Show("GiriÅŸ BaÅŸarÄ±lÄ±!...");
+                MessageBox.Show("Giriþ Baþarýlý!...");
 
 
             else
 
 
-                MessageBox.Show("HatalÄ± GiriÅŸ!...");
+                MessageBox.Show("Hatalý Giriþ!...");
         }
     }
 }
